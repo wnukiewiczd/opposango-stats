@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 
 import YoutubePanel from "./components/YoutubePanel";
@@ -8,10 +7,10 @@ import InstagramPanel from "./components/InstagramPanel";
 
 function App() {
   return (
-    <div className="w-full h-full flex flex-row">
+    <div className="w-full h-full flex flex-col md:flex-row">
       <YoutubePanel />
-      <TikTokPanel />
       <TwitchPanel />
+      <TikTokPanel />
       <InstagramPanel />
     </div>
   );

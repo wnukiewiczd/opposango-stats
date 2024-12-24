@@ -1,26 +1,16 @@
-import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTiktok } from "@fortawesome/free-brands-svg-icons";
 
 export default function TikTokPanel() {
-  // const [count, setCount] = useState(0);
-
-  const youtubeData = {
-    channelName: "Nazwa",
-    subscribers: 10,
-    views: 100,
-  };
-
   return (
-    <div className="bg-gray-100 border border-gray-400 p-4 rounded shadow-md w-full h-full">
-      <h2 className="text-xl font-bold text-gray-600">YouTube Panel</h2>
-      {youtubeData ? (
-        <div>
-          <p>Channel: {youtubeData.channelName}</p>
-          <p>Subscribers: {youtubeData.subscribers}</p>
-          <p>Views: {youtubeData.views}</p>
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
+    <div className="bg-gray-100 p-4 w-full h-full text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-600 p-10">
+        <FontAwesomeIcon icon={faTiktok} /> Panel TikTok
+      </h2>
+      <p className="text-xl">
+        Polityka TikTok nie pozwala na pobranie danych. Wymagana zgoda
+        właściciela konta.
+      </p>
     </div>
   );
 }
