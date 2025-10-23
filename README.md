@@ -1,8 +1,3 @@
-# React + Vite
+# Webowy panel - Podgląd statystyk dla kanału Opposango dla różnych platform Social Media
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[https://sage-meringue-5bdbb0.netlify.app/?fbclid=IwY2xjawNmv9pleHRuA2FlbQIxMQABHq8NJbtO2drHsifqZbA-K7tc6K5fX2bL1GabgM1EiFbiotv_WTgCjFyzqhRo_aem_FPDvVMuPW4jfFkRGwk9amw](URL)
